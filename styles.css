@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+body {
+    background-color: #ffffff;
+  }
+
+footer {
+  background-color:#000000;
+  color: #ffffff;
+  width: 100vw; /* 100% da largura da janela */
+  position: relative;
+  left: 0;
+
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-nav .nav-link {
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.3ms ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgb(252, 231, 4) !important;
+}
+
+.list-group-item {
+    background-color: #333 !important; /* Fundo escuro nos itens da lista */
+    color: white;
+}
+
+.background-section {
+  min-height: 100vh;
+  background: url('imgs/bg.png') center/cover no-repeat;
+  color: white;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff; /* Fundo preto */
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #000000; /* Fundo preto */
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff !important;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 8px;
+  text-transform: uppercase;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
